@@ -1,0 +1,52 @@
+Bank sample.h
+
+    %%Gossiping(Single)
+    <! 
+        Gossiping
+        Mingle
+    !>
+    purnota a = 5~
+    opurnota a = 6.3~
+    purnota e
+    opurnota b = 3.14~
+    purnota opurnota= 3.12~
+    opurnota c,d~
+
+    limitless(a < 10)
+    {
+        avirvab("Value of a: ", a)~
+        a = a + 1~
+    }
+
+    hoyto(b > 3.0)
+    {
+        avirvab("Value of b: ", b)~
+    }
+    noyto hoyto(b<=3.0)
+    {
+        avirvab("Value of b: ", b)~
+    }
+    noyto
+    {
+        avirvab("Value of b is not greater than 3.0")~
+    }
+    hoyto(b > 3.0)
+    {
+        avirvab("Value of b: ", b)~
+    }
+    noyto hoyto(b<=3.0)
+    {
+        avirvab("Value of b: ", b)~
+    }
+    noyto
+    {
+        avirvab("Value of b is not greater than 3.0")~
+    }
+
+
+    boundless(purnota i=0;i<5;i++)
+    {
+        avirvab("Value of i: ", i)~
+    }
+
+    firiye dao~
